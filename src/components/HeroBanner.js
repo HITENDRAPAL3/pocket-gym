@@ -13,8 +13,8 @@ const HeroBanner = () => (
     <Typography fontSize="22px" lineHeight="35px">
       Learn all variations of Different Exercises
     </Typography>
-    <Stack>
-      <a href="#exercises" style={{ marginTop: '45px', textDecoration: 'none', width: '200px', textAlign: 'center', background: '#FF2625', padding: '14px', fontSize: '22px', textTransform: 'none', color: 'white', borderRadius: '20px' }}>Explore Exercises</a>
+    <Stack >
+      <a href="#exercises" className="explore-hitu" style={{ marginTop: '45px', textDecoration: 'none', width: '200px', textAlign: 'center', background: '#FF2625', padding: '14px', fontSize: '22px', textTransform: 'none', color: 'white', borderRadius: '20px' }}>Explore Exercises</a>
     </Stack>
     {/* <Typography fontWeight={600} color="#FF2625" sx={{ opacity: '0.1', display: { lg: 'block', xs: 'none' }, fontSize: '200px' }}>
       Pocket Gym

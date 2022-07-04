@@ -2,7 +2,7 @@ body {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: #1C0A00;
   color: #fff;
-  
+  margin-top: 0px;
 
 }
 
@@ -33,7 +33,7 @@ body {
   bottom: -20px;
   right: 80px;
   transform: scale(1, 1);
-  transition: 0.8s all ease-in-out;
+  transition: 0.3s all ease-in-out;
 }
 
 .right-arrow {
@@ -52,8 +52,8 @@ body {
 }
 
 .detail-image {
-  width: 729px;
-  height: 742px;
+  width: 700px;
+  height: 700px;
 }
 
 .hero-banner-img {
@@ -64,15 +64,16 @@ body {
   height: 700px;
   margin-top: -330px;
   padding: 50px;
+  border-radius: 50%;
+  
 }
 
 .exercise-card {
   width: 400px;
-  height: 445px;
+  height: 460px;
   background: #CC9544;
   border-top: 4px solid #CC9544;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-radius: 15px;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
@@ -84,11 +85,14 @@ body {
 
 .exercise-card img {
   height: 326px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom: 10px;
 }
 
 .bodyPart-card {
   transform: scale(1, 1);
-  transition: 0.8s all ease-in-out;
+  transition: 0.5s all ease-in-out;
 }
 
 .exercise-card:hover,
@@ -96,10 +100,20 @@ body {
   transform: scale(1.1, 1.1);
 }
 
+.explore-hitu{
+ transition: ease 0.5s;
+
+}
+.explore-hitu:hover{
+transform: scale(1.1,1.1);
+}
+
 .search-btn:hover {
   color: #FF2625 !important;
-  border: 1px solid #FF2625 !important;
+  background-color: #FF2625;
+  border: 1px solid red !important;
   border-radius: 4px;
+  
 }
 
 .exercise-video {
@@ -119,7 +133,7 @@ body {
 
 
   .react-horizontal-scrolling-menu--scroll-container {
-    width: 500px;
+    width: 50px;
   }
 
   .left-arrow,
@@ -129,6 +143,7 @@ body {
 
   .hero-banner-img {
     display: none;
+    
   }
 
   .exercise-card {
@@ -147,3 +162,4 @@ body {
     width: 280px;
   }
 }
+
