@@ -7,8 +7,8 @@ body {
 }
 
 * {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 
 }
@@ -65,7 +65,7 @@ body {
   margin-top: -330px;
   padding: 50px;
   border-radius: 50%;
-  
+
 }
 
 .exercise-card {
@@ -88,6 +88,22 @@ body {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   margin-bottom: 10px;
+}
+
+
+.home1{
+   transition: 0.3s ease;
+}
+
+.home1:hover{
+  transform: scale(1.1,1.1);
+}
+
+.exercises1{
+   transition: 0.3s ease;
+}
+.exercises1:hover{
+   transform: scale(1.1,1.1);
 }
 
 .bodyPart-card {

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Stack } from '@mui/material';
 
 
-//import Logo from '../assets/images/Logo.png';
+
 
 const Navbar = () => (
   <Stack direction="row" justifyContent="space-around" sx={{ gap: { sm: '123px', xs: '40px' }, mt: { sm: '32px', xs: '20px' }, justifyContent: 'none' }} px="40px">
@@ -15,8 +15,8 @@ const Navbar = () => (
       alignItems="flex-end"
       
     >
-      <Link to="/" style={{ textDecoration: 'none', color: 'white' }}>Home</Link>
-      <a href="#exercises" style={{ textDecoration: 'none', color: 'white' }}>Exercises</a>
+      <Link to="/" class="home1" style={{ textDecoration: 'none', color: 'white'  }}>Home</Link>
+      <a href="#exercises" class="exercises1" style={{ textDecoration: 'none', color: 'white' }}>Exercises</a>
     </Stack>
   </Stack>
 );
